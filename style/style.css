@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(../Font/static/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url(../Font/Mulish/static/Mulish-Regular.ttf);
+}
+
+.font-Mulish{
+    font-family: 'Mulish';
+}
+
+.font-oswald{
+    font-family: 'Oswald',sans-serif;
+}
+
+.nav-item a:hover{
+    color: black !important;
+}
+
+.San-Francisco h5{
+    margin-top: 0 ;
+    margin-bottom: 0.2rem;
+    font-weight: 500 ;
+    line-height: 1.2 ;
+}
+
+.sticky{
+    position: fixed;
+    background-color: #FFFFFF;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    top: 15rem;
+    color: #fff;
+    text-align: center;
+}
+
+.engineers-img{
+    filter:brightness(0.8) !important;
+}
+
+.nav-item .hover:hover{
+    color: #ff5e15 !important;
+}
+
+.fa-arrow-left {
+    position: absolute;
+    left: 1px;
+    padding-top: 25px;
+    font-size: 25px;
+    background-color: white;
+    height: 70px;
+    display: flex;
+    width: 70px;
+    color: black;
+}
+
+.fa-arrow-right{
+    position: absolute;
+    right: 1px;
+    padding-top: 25px;
+    font-size: 25px;
+    background-color: white;
+    height: 70px;
+    display: flex;
+    width: 70px;
+    color: black;
+}
+
+.fa-arrow-left:hover ,.fa-arrow-right:hover{
+    background-color: #ff5e15 !important;
+}
+
+.background-color{
+    background-color: #09162A;
+    min-height: 850px;
+    min-width:100%;
+    margin-top: 300px !important;
+}
+
+.Engineers-works img{
+    height: 691px;
+    width: 540px;
+}
+
+.form-control{
+    margin-left: 40px !important;
+    width: 75% !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: white !important;
+    border-bottom-color: rgba(0, 0, 0, .42) !important;
+    border-bottom: 1px solid !important;
+}
+
+.form-control::placeholder{
+    color: white !important;
+}
+
+.send-message:hover {
+    background-color: black !important;
+}
+
+.highlight-color{
+    color: #ff5e15 !important;
+}
+
+/* .blog-image{
+    width: 450px !important;
+    max-height: 234px !important;
+    overflow:hidden !important;
+}    
+
+.blog-image img{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.blog-image:hover img{
+    transform: scale(1.2);
+} */
+
+/* .blog-image{
+    min-width:349px !important;
+    height:233px !important;
+    overflow: hidden !important;
+}
+
+.blog-image img{
+    width: 100% !important;
+    transition: 0.5s all ease-in-out;
+    object-fit: cover !important;
+}
+
+.blog-image:hover img{
+    transform: scale(1.2);
+} */
+
+.blog-image{
+    width:349px;
+    height: 233px;
+    overflow: hidden;
+}
+
+.blog-image img {
+    width: 100%;
+    height:100%;
+    transition: transform 400ms;
+    object-fit:cover;
+}
+
+.blog-image:hover img{
+    transform: scale(1.1);
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  /* background: #eee; */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  position: relative;
+    height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 350px;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.Building-Refinery-img{
+    width:350px;
+    height: 490px;
+    overflow: hidden;
+    margin-top:80px;
+} 
+
+.Building-Refinery-img img{
+    width: 100%;
+    height:100%;
+    transition: transform 400ms;
+    object-fit:cover;
+}
+
+Building-Refinery-img img:hover{
+    scale: 1.2;
+}
+
+.Factory-heading p ,.Factory-heading h5{ 
+    /* display: none; */
+}
+
+.swiper-slide:hover img{
+  transform: scale(1.1);
+  filter: brightness(0.5);
+}
+  
+.carousel-caption-1{
+    position: absolute;
+    left: 1px !important;
+    text-align:start !important;
+    top: 480px;    
+}
+
+.learn-more a{
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.learn-more a:hover {
+    color: #ff5e15 !important;
+    text-decoration: underline;
+}
+
+.service-1-icon{
+    position: relative;
+    margin-left: 20px;
+}
+
+.service-1-icon::before{
+    position: absolute;
+    content: "";
+    /* -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg); */
+    transform: rotate(45deg);
+    z-index: -1;
+    top: 35px;
+    left: -5px;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 40px solid #ff5e15
+}
+
+.footer-heading{
+    margin-left:30px;
+    margin-top: 80px;
+    color: white !important;
+}
+
+.footer-heading span{
+    text-decoration: underline;
+    color: #ff5e15 !important;
+}
+
+.coloelib-footer{
+    cursor: pointer;
+}
+
+.Footer p .coloelib-footer:hover{
+    color: #ff5e15 !important;
+    text-decoration: underline !important;
+}
+
+
+.footer-nav:hover{
+    color: #ff5e15 !important;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Engineers-works img{
+    height: 691px;
+    min-width: 540px;
+}
+
+.Expert-in-Builings-img{
+    color: #ff5e15 !important;
+}
+

@@ -1,0 +1,27 @@
+@media(min-width:992px){
+    .navbar-toggler-icon{
+        display: none !important;
+    }
+}
+
+/* @media(max-width:700px){
+    .Engineering-work img{
+        height:691px !important;
+        min-width: 540px !important;
+        border-radius: 250px !important;
+    }
+} */
+
+
+@media(max-width:600px){
+    .TESTIMONIAL p {
+        max-width: 468px;
+    }
+}
+
+
+@media(max-width:580px){
+    .Engineers-works img{
+        min-width:100% !important;
+    }
+}
